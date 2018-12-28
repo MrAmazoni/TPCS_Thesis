@@ -1,0 +1,780 @@
+
+<!-- saved from url=(0399)http://tma.main.jp/logic/logic.php?lang=en&type=6&v0=a&v1=b&v2=c&v3=d&v4=e&v5=f&00=0&01=0&02=0&03=0&04=0&05=0&06=0&07=0&08=0&09=0&0a=0&0b=0&0c=0&0d=0&0e=1&0f=0&10=1&11=1&12=0&13=0&14=0&15=0&16=1&17=0&18=1&19=0&1a=0&1b=0&1c=0&1d=0&1e=0&1f=0&20=0&21=0&22=0&23=0&24=0&25=0&26=0&27=0&28=1&29=1&2a=1&2b=0&2c=1&2d=1&2e=0&2f=0&30=0&31=0&32=0&33=0&34=0&35=0&36=0&37=0&38=0&39=0&3a=0&3b=0&3c=0&3d=0&3e=0&3f=0 -->
+<html class="gr__tma_main_jp"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Online minimization of boolean functions</title>
+<script charset="utf-8" src="./task_1.1_files/button.e96bb6acc0f8bda511c0c46a84ee18e4.js.download"></script></head><body data-gr-c-s-loaded="true">
+<p><a href="http://tma.main.jp/">Home</a>&nbsp;&nbsp;
+<a href="http://tma.main.jp/logic/index_en.html">Online minimization of boolean functions</a> &nbsp;&nbsp;
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 60px; height: 20px;" title="Twitter Tweet Button" src="./task_1.1_files/tweet_button.0568ee90c37ccf52b40a4b1e312811ff.en.html"></iframe><script type="text/javascript" src="./task_1.1_files/widgets.js.download"></script>
+</p><hr align="left" size="2" width="100%">
+<h1>Online minimization of boolean functions</h1>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0069691351650690";
+/* logic_ad1_en */
+google_ad_slot = "1421824968";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="./task_1.1_files/f.txt">
+</script>
+<br><br>
+<table border="1" width="560">
+<caption> Truth table </caption>
+<tbody><tr bgcolor="#cccccc">
+<th>a</th><th>b</th><th>c</th><th>d</th><th>e</th><th>f</th><th>Output</th></tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#ffffff" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#cccccc" align="left">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<!-- verify pass -->
+<!-- verify pass -->
+<br>
+DNF (with ~) = ~a~bcde~f + ~ab~c~d~e~f + ~ab~c~d~ef + ~ab~cde~f + ~abc~d~e~f + a~bc~d~e~f + a~bc~d~ef + a~bc~de~f + a~bcd~e~f + a~bcd~ef<br><br>
+DNF (with overline) = <span style="text-decoration:overline">a</span><span style="text-decoration:overline">b</span>cde<span style="text-decoration:overline">f</span> + <span style="text-decoration:overline">a</span>b<span style="text-decoration:overline">c</span><span style="text-decoration:overline">d</span><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span> + <span style="text-decoration:overline">a</span>b<span style="text-decoration:overline">c</span><span style="text-decoration:overline">d</span><span style="text-decoration:overline">e</span>f + <span style="text-decoration:overline">a</span>b<span style="text-decoration:overline">c</span>de<span style="text-decoration:overline">f</span> + <span style="text-decoration:overline">a</span>bc<span style="text-decoration:overline">d</span><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span> + a<span style="text-decoration:overline">b</span>c<span style="text-decoration:overline">d</span><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span> + a<span style="text-decoration:overline">b</span>c<span style="text-decoration:overline">d</span><span style="text-decoration:overline">e</span>f + a<span style="text-decoration:overline">b</span>c<span style="text-decoration:overline">d</span>e<span style="text-decoration:overline">f</span> + a<span style="text-decoration:overline">b</span>cd<span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span> + a<span style="text-decoration:overline">b</span>cd<span style="text-decoration:overline">e</span>f<br><br>
+CNF (with ~) = (a + b + c + d + e + f) (a + b + c + d + e + ~f) (a + b + c + d + ~e + f) (a + b + c + d + ~e + ~f) (a + b + c + ~d + e + f) (a + b + c + ~d + e + ~f) (a + b + c + ~d + ~e + f) (a + b + c + ~d + ~e + ~f) (a + b + ~c + d + e + f) (a + b + ~c + d + e + ~f) (a + b + ~c + d + ~e + f) (a + b + ~c + d + ~e + ~f) (a + b + ~c + ~d + e + f) (a + b + ~c + ~d + e + ~f) (a + b + ~c + ~d + ~e + ~f) (a + ~b + c + d + ~e + f) (a + ~b + c + d + ~e + ~f) (a + ~b + c + ~d + e + f) (a + ~b + c + ~d + e + ~f) (a + ~b + c + ~d + ~e + ~f) (a + ~b + ~c + d + e + ~f) (a + ~b + ~c + d + ~e + f) (a + ~b + ~c + d + ~e + ~f) (a + ~b + ~c + ~d + e + f) (a + ~b + ~c + ~d + e + ~f) (a + ~b + ~c + ~d + ~e + f) (a + ~b + ~c + ~d + ~e + ~f) (~a + b + c + d + e + f) (~a + b + c + d + e + ~f) (~a + b + c + d + ~e + f) (~a + b + c + d + ~e + ~f) (~a + b + c + ~d + e + f) (~a + b + c + ~d + e + ~f) (~a + b + c + ~d + ~e + f) (~a + b + c + ~d + ~e + ~f) (~a + b + ~c + d + ~e + ~f) (~a + b + ~c + ~d + ~e + f) (~a + b + ~c + ~d + ~e + ~f) (~a + ~b + c + d + e + f) (~a + ~b + c + d + e + ~f) (~a + ~b + c + d + ~e + f) (~a + ~b + c + d + ~e + ~f) (~a + ~b + c + ~d + e + f) (~a + ~b + c + ~d + e + ~f) (~a + ~b + c + ~d + ~e + f) (~a + ~b + c + ~d + ~e + ~f) (~a + ~b + ~c + d + e + f) (~a + ~b + ~c + d + e + ~f) (~a + ~b + ~c + d + ~e + f) (~a + ~b + ~c + d + ~e + ~f) (~a + ~b + ~c + ~d + e + f) (~a + ~b + ~c + ~d + e + ~f) (~a + ~b + ~c + ~d + ~e + f) (~a + ~b + ~c + ~d + ~e + ~f)<br><br>
+CNF (with overline) = (a + b + c + d + e + f) (a + b + c + d + e + <span style="text-decoration:overline">f</span>) (a + b + c + d + <span style="text-decoration:overline">e</span> + f) (a + b + c + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (a + b + c + <span style="text-decoration:overline">d</span> + e + f) (a + b + c + <span style="text-decoration:overline">d</span> + e + <span style="text-decoration:overline">f</span>) (a + b + c + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + f) (a + b + c + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (a + b + <span style="text-decoration:overline">c</span> + d + e + f) (a + b + <span style="text-decoration:overline">c</span> + d + e + <span style="text-decoration:overline">f</span>) (a + b + <span style="text-decoration:overline">c</span> + d + <span style="text-decoration:overline">e</span> + f) (a + b + <span style="text-decoration:overline">c</span> + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (a + b + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + e + f) (a + b + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + e + <span style="text-decoration:overline">f</span>) (a + b + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (a + <span style="text-decoration:overline">b</span> + c + d + <span style="text-decoration:overline">e</span> + f) (a + <span style="text-decoration:overline">b</span> + c + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (a + <span style="text-decoration:overline">b</span> + c + <span style="text-decoration:overline">d</span> + e + f) (a + <span style="text-decoration:overline">b</span> + c + <span style="text-decoration:overline">d</span> + e + <span style="text-decoration:overline">f</span>) (a + <span style="text-decoration:overline">b</span> + c + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (a + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + d + e + <span style="text-decoration:overline">f</span>) (a + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + d + <span style="text-decoration:overline">e</span> + f) (a + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (a + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + e + f) (a + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + e + <span style="text-decoration:overline">f</span>) (a + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + f) (a + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + b + c + d + e + f) (<span style="text-decoration:overline">a</span> + b + c + d + e + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + b + c + d + <span style="text-decoration:overline">e</span> + f) (<span style="text-decoration:overline">a</span> + b + c + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + b + c + <span style="text-decoration:overline">d</span> + e + f) (<span style="text-decoration:overline">a</span> + b + c + <span style="text-decoration:overline">d</span> + e + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + b + c + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + f) (<span style="text-decoration:overline">a</span> + b + c + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + b + <span style="text-decoration:overline">c</span> + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + b + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + f) (<span style="text-decoration:overline">a</span> + b + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + d + e + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + d + e + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + d + <span style="text-decoration:overline">e</span> + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + <span style="text-decoration:overline">d</span> + e + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + <span style="text-decoration:overline">d</span> + e + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + c + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + d + e + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + d + e + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + d + <span style="text-decoration:overline">e</span> + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + d + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + e + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + e + <span style="text-decoration:overline">f</span>) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + f) (<span style="text-decoration:overline">a</span> + <span style="text-decoration:overline">b</span> + <span style="text-decoration:overline">c</span> + <span style="text-decoration:overline">d</span> + <span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">f</span>)<br><br>
+<!-- verify pass -->
+<p>Minimal Form  (with ~) = ~a~bcde~f + ~ab~cde~f + ~ab~c~d~e + ~ab~d~e~f + a~bc~d~f + a~bc~e</p>
+<p>Minimal Form  (with overline) = <span style="text-decoration:overline">a</span><span style="text-decoration:overline">b</span>cde<span style="text-decoration:overline">f</span> + <span style="text-decoration:overline">a</span>b<span style="text-decoration:overline">c</span>de<span style="text-decoration:overline">f</span> + <span style="text-decoration:overline">a</span>b<span style="text-decoration:overline">c</span><span style="text-decoration:overline">d</span><span style="text-decoration:overline">e</span> + <span style="text-decoration:overline">a</span>b<span style="text-decoration:overline">d</span><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span> + a<span style="text-decoration:overline">b</span>c<span style="text-decoration:overline">d</span><span style="text-decoration:overline">f</span> + a<span style="text-decoration:overline">b</span>c<span style="text-decoration:overline">e</span></p>
+<br>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0069691351650690";
+/* logic_ad1_en */
+google_ad_slot = "1421824968";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="./task_1.1_files/f.txt">
+</script>
+<br><br>
+<br>
+<table border="1">
+<caption> Karnaugh map <span style="text-decoration:overline">a</span><span style="text-decoration:overline">b</span></caption>
+<tbody><tr bgcolor="#cccccc">
+<th width="80"><br></th><th width="80"><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span></th>
+<th width="80"><span style="text-decoration:overline">e</span>f</th>
+<th width="80">ef</th>
+<th width="80">e<span style="text-decoration:overline">f</span></th>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span><span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span>d</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">cd</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffa500">1</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">c<span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+</tbody></table>
+<br>
+<table border="1">
+<caption> Karnaugh map <span style="text-decoration:overline">a</span>b</caption>
+<tbody><tr bgcolor="#cccccc">
+<th width="80"><br></th><th width="80"><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span></th>
+<th width="80"><span style="text-decoration:overline">e</span>f</th>
+<th width="80">ef</th>
+<th width="80">e<span style="text-decoration:overline">f</span></th>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span><span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffa500">1</td>
+<td bgcolor="#ffa500">1</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span>d</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffa500">1</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">cd</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">c<span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffa500">1</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+</tbody></table>
+<br>
+<table border="1">
+<caption> Karnaugh map ab</caption>
+<tbody><tr bgcolor="#cccccc">
+<th width="80"><br></th><th width="80"><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span></th>
+<th width="80"><span style="text-decoration:overline">e</span>f</th>
+<th width="80">ef</th>
+<th width="80">e<span style="text-decoration:overline">f</span></th>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span><span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span>d</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">cd</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">c<span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+</tbody></table>
+<br>
+<table border="1">
+<caption> Karnaugh map a<span style="text-decoration:overline">b</span></caption>
+<tbody><tr bgcolor="#cccccc">
+<th width="80"><br></th><th width="80"><span style="text-decoration:overline">e</span><span style="text-decoration:overline">f</span></th>
+<th width="80"><span style="text-decoration:overline">e</span>f</th>
+<th width="80">ef</th>
+<th width="80">e<span style="text-decoration:overline">f</span></th>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span><span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc"><span style="text-decoration:overline">c</span>d</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">cd</td>
+<td bgcolor="#ffa500">1</td>
+<td bgcolor="#ffa500">1</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffffff">0</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc">c<span style="text-decoration:overline">d</span></td>
+<td bgcolor="#ffa500">1</td>
+<td bgcolor="#ffa500">1</td>
+<td bgcolor="#ffffff">0</td>
+<td bgcolor="#ffa500">1</td>
+</tr>
+</tbody></table>
+<br>
+<!-- 0000000000000010110000101000000000000000111011000000000000000000 -->
+<br><br>
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./task_1.1_files/widget_iframe.0568ee90c37ccf52b40a4b1e312811ff.html" title="Twitter settings iframe" style="display: none;"></iframe></body></html>

@@ -1,0 +1,2688 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    130297,       2678]
+NotebookOptionsPosition[    129971,       2662]
+NotebookOutlinePosition[    130315,       2677]
+CellTagsIndexPosition[    130272,       2674]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+(a&&~b&&c&&d&&e&&~f) || (~a&&b&&~c&&d&&e&&~f) || (~a&&b&&~c&&~d&&~e) || \
+(~a&&b&&~d&&~e&&~f) || (a&&~b&&c&&~d&&~f) || (a&&~b&&c&&~e)\
+\>", "WolframAlphaLong",
+ CellChangeTimes->{3.7534668094917316`*^9}],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = 
+   "(a&&~b&&c&&d&&e&&~f) || (~a&&b&&~c&&d&&e&&~f) || (~a&&b&&~c&&~d&&~e) || \
+(~a&&b&&~d&&~e&&~f) || (a&&~b&&c&&~d&&~f) || (a&&~b&&c&&~e)", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {
+     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+      "Sources"}, Asynchronous -> All, 
+    TimeConstraint -> {30, Automatic, Automatic, Automatic}, 
+    Method -> {
+     "Formats" -> {"cell", "minput", "msound", "dataformats"}, "Server" -> 
+      "http://api.wolframalpha.com/v1/"}}, Typeset`elements$$ = {
+   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+    "Sources"}, Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input", "scanner" -> "Identity", "id" -> "Input", 
+     "position" -> "100", "error" -> "false", "numsubpods" -> "2"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "(a &&  !b && c && d && e &&  !f) || ( !a && b &&  !c && d && e &&  \
+!f) || ( !a && b &&  !c &&  !d &&  !e) || ( !a && b &&  !d &&  !e &&  !f) || \
+(a &&  !b && c &&  !d &&  !f) || (a &&  !b && c &&  !e)"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             RowBox[{
+               RowBox[{"(", 
+                 RowBox[{"a", "\[And]", 
+                   RowBox[{"\[Not]", "b"}], "\[And]", "c", "\[And]", "d", 
+                   "\[And]", "e", "\[And]", 
+                   RowBox[{"\[Not]", "f"}]}], ")"}], "\[Or]", 
+               RowBox[{"(", 
+                 RowBox[{
+                   RowBox[{"\[Not]", "a"}], "\[And]", "b", "\[And]", 
+                   RowBox[{"\[Not]", "c"}], "\[And]", "d", "\[And]", "e", 
+                   "\[And]", 
+                   RowBox[{"\[Not]", "f"}]}], ")"}], "\[Or]", 
+               RowBox[{"(", 
+                 RowBox[{
+                   RowBox[{"\[Not]", "a"}], "\[And]", "b", "\[And]", 
+                   RowBox[{"\[Not]", "c"}], "\[And]", 
+                   RowBox[{"\[Not]", "d"}], "\[And]", 
+                   RowBox[{"\[Not]", "e"}]}], ")"}], "\[Or]", 
+               RowBox[{"(", 
+                 RowBox[{
+                   RowBox[{"\[Not]", "a"}], "\[And]", "b", "\[And]", 
+                   RowBox[{"\[Not]", "d"}], "\[And]", 
+                   RowBox[{"\[Not]", "e"}], "\[And]", 
+                   RowBox[{"\[Not]", "f"}]}], ")"}], "\[Or]", 
+               RowBox[{"(", 
+                 RowBox[{"a", "\[And]", 
+                   RowBox[{"\[Not]", "b"}], "\[And]", "c", "\[And]", 
+                   RowBox[{"\[Not]", "d"}], "\[And]", 
+                   RowBox[{"\[Not]", "f"}]}], ")"}], "\[Or]", 
+               RowBox[{"(", 
+                 RowBox[{"a", "\[And]", 
+                   RowBox[{"\[Not]", "b"}], "\[And]", "c", "\[And]", 
+                   RowBox[{"\[Not]", "e"}]}], ")"}]}], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata,formuladata"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "(a &&  !b && c && d && e &&  !f) || ( !a && b &&  !c && d && e &&  \
+!f) || ( !a && b &&  !c &&  !d &&  !e) || ( !a && b &&  !d &&  !e &&  !f) || \
+(a &&  !b && c &&  !d &&  !f) || (a &&  !b && c &&  !e)"}], 
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{"\"(\"", 
+              StyleBox["a", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["b", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["c", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["d", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["e", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["f", Italic, 14, StripOnInput -> False], "\")\"", 
+              "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"O\"", 14, StripOnInput -> False], 
+                  StyleBox["\"R \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["a", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["b", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["c", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["d", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["e", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["f", Italic, 14, StripOnInput -> False], "\")\"", 
+              "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"O\"", 14, StripOnInput -> False], 
+                  StyleBox["\"R \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["a", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["b", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["c", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["d", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["e", Italic, 14, StripOnInput -> False], "\")\"", 
+              "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"O\"", 14, StripOnInput -> False], 
+                  StyleBox["\"R \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["a", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["b", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["d", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["e", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["f", Italic, 14, StripOnInput -> False], "\")\"", 
+              "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"O\"", 14, StripOnInput -> False], 
+                  StyleBox["\"R \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              StyleBox["a", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["b", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["c", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["d", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["f", Italic, 14, StripOnInput -> False], "\")\"", 
+              "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"O\"", 14, StripOnInput -> False], 
+                  StyleBox["\"R \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              StyleBox["a", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["b", Italic, 14, StripOnInput -> False], "\")\"", 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], 
+              StyleBox["c", Italic, 14, StripOnInput -> False], 
+              TemplateBox[{"\" \"", 
+                TemplateBox[{
+                  StyleBox["\"A\"", 14, StripOnInput -> False], 
+                  StyleBox["\"ND \"", 11, StripOnInput -> False]}, 
+                 "RowDefault"], "\" \""}, "RowDefault"], "\"(\"", 
+              TemplateBox[{
+                StyleBox["\"N\"", 14, StripOnInput -> False], 
+                StyleBox["\"OT \"", 11, StripOnInput -> False]}, 
+               "RowDefault"], 
+              StyleBox["e", Italic, 14, StripOnInput -> False], "\")\"", 
+              "\")\""}, "RowDefault"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}], 
+     XMLElement["infos", {"count" -> "3"}, {
+       XMLElement[
+       "info", {"text" -> "\[Not]expr is the logical NOT function"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/language/ref/Not.html", 
+           "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/NOT.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             FormBox[
+              TemplateBox[{
+                RowBox[{"\[Not]", "expr"}], "\" \"", 
+                "\"is the logical NOT function\""}, "RowDefault"], 
+              TraditionalForm]], "Output", {
+            Background -> None, 
+             GraphicsBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+               DefaultAxesStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+               DefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+             Graphics3DBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+            NumberPoint -> ".", 
+            AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+            RenderingOptions -> {
+             "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}], 
+       XMLElement[
+       "info", {
+        "text" -> "e_1\[And]e_2\[And]... is the logical AND function"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/language/ref/And.html", 
+           "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/AND.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             FormBox[
+              TemplateBox[{
+                RowBox[{
+                  SubscriptBox["e", "1"], "\[And]", 
+                  SubscriptBox["e", "2"], "\[And]", "\[Ellipsis]"}], "\" \"", 
+                "\"is the logical AND function\""}, "RowDefault"], 
+              TraditionalForm]], "Output", {
+            Background -> None, 
+             GraphicsBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+               DefaultAxesStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+               DefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+             Graphics3DBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+            NumberPoint -> ".", 
+            AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+            RenderingOptions -> {
+             "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}], 
+       XMLElement[
+       "info", {"text" -> "e_1\[Or]e_2\[Or]... is the logical OR function"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/language/ref/Or.html", 
+           "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/OR.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             FormBox[
+              TemplateBox[{
+                RowBox[{
+                  SubscriptBox["e", "1"], "\[Or]", 
+                  SubscriptBox["e", "2"], "\[Or]", "\[Ellipsis]"}], "\" \"", 
+                "\"is the logical OR function\""}, "RowDefault"], 
+              TraditionalForm]], "Output", {
+            Background -> None, 
+             GraphicsBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+               DefaultAxesStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+               DefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+             Graphics3DBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+            NumberPoint -> ".", 
+            AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+            RenderingOptions -> {
+             "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}]}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"title" -> "Minimal forms", "scanner" -> "Boolean", "id" -> 
+     "MinimalForms", "position" -> "200", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                StyleBox[
+                 TagBox[
+                  GridBox[{{
+                    TagBox[
+                    PaneBox[
+                    "\"DNF\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}, {
+                    TagBox[
+                    PaneBox[
+                    "\"CNF\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}, {
+                    TagBox[
+                    PaneBox[
+                    "\"ANF\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 11, 
+                    SpanMaxSize -> 0, StripOnInput -> False]}, {
+                    TagBox[
+                    PaneBox[
+                    "\"NOR\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nor]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Nor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Nor]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Nor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nor]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Nor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Nor]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nor]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}, {
+                    TagBox[
+                    PaneBox[
+                    "\"NAND\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nand]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nand]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nand]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Nand]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[Nand]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}, {
+                    TagBox[
+                    PaneBox[
+                    "\"AND\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}, {
+                    TagBox[
+                    PaneBox[
+                    "\"OR\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[Or]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}},
+                    GridBoxAlignment -> {
+                    "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+                   AutoDelete -> False, 
+                   GridBoxBackground -> {"Columns" -> {None, None}}, 
+                   GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                   GridBoxSpacings -> {
+                    "Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, FrameStyle -> 
+                   GrayLevel[0.84], BaselinePosition -> Automatic, 
+                   AllowScriptLevelChange -> False], "Grid"], 
+                 LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+                 False]}, {
+                PaneBox[
+                 TagBox[
+                  Cell[
+                   TextData[{
+                    StyleBox[
+                    Cell[
+                    BoxData[
+                    FormBox[
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", 
+                    "\"assuming NAND and NOR are n\[Hyphen]ary operators\"", 
+                    "\[NoBreak]", "\")\""}], TraditionalForm]]], {
+                    FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}]], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 BaseStyle -> {LineIndent -> 0}]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+              AllowScriptLevelChange -> False, DefaultBaseStyle -> "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,formuladata"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Text notation", "input" -> 
+         "MinimalForms__Text notation"}, {}]}], 
+     XMLElement["infos", {"count" -> "3"}, {
+       XMLElement[
+       "info", {
+        "text" -> "e_1\[Xor]e_2\[Xor]... is the logical XOR function"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/language/ref/Xor.html", 
+           "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/XOR.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             FormBox[
+              TemplateBox[{
+                RowBox[{
+                  SubscriptBox["e", "1"], "\[Xor]", 
+                  SubscriptBox["e", "2"], "\[Xor]", "\[Ellipsis]"}], "\" \"", 
+                "\"is the logical XOR function\""}, "RowDefault"], 
+              TraditionalForm]], "Output", {
+            Background -> None, 
+             GraphicsBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+               DefaultAxesStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+               DefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+             Graphics3DBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+            NumberPoint -> ".", 
+            AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+            RenderingOptions -> {
+             "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}], 
+       XMLElement[
+       "info", {
+        "text" -> "e_1\[Nor]e_2\[Nor]... is the logical NOR function"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/language/ref/Nor.html", 
+           "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/NOR.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             FormBox[
+              TemplateBox[{
+                RowBox[{
+                  SubscriptBox["e", "1"], "\[Nor]", 
+                  SubscriptBox["e", "2"], "\[Nor]", "\[Ellipsis]"}], "\" \"", 
+                "\"is the logical NOR function\""}, "RowDefault"], 
+              TraditionalForm]], "Output", {
+            Background -> None, 
+             GraphicsBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+               DefaultAxesStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+               DefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+             Graphics3DBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+            NumberPoint -> ".", 
+            AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+            RenderingOptions -> {
+             "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}], 
+       XMLElement[
+       "info", {
+        "text" -> "e_1\[Nand]e_2\[Nand]... is the logical NAND function"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/language/ref/Nand.html", 
+           "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/NAND.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             FormBox[
+              TemplateBox[{
+                RowBox[{
+                  SubscriptBox["e", "1"], "\[Nand]", 
+                  SubscriptBox["e", "2"], "\[Nand]", "\[Ellipsis]"}], "\" \"",
+                 "\"is the logical NAND function\""}, "RowDefault"], 
+              TraditionalForm]], "Output", {
+            Background -> None, 
+             GraphicsBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+               DefaultAxesStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+               DefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+             Graphics3DBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+            NumberPoint -> ".", 
+            AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+            RenderingOptions -> {
+             "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}]}]}], 
+   Typeset`pod3$$ = XMLElement[
+   "pod", {"title" -> "Other forms", "scanner" -> "Boolean", "id" -> 
+     "OtherForms", "position" -> "300", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                  "\"ESOP\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}], "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Xor]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"IMPLIES\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[Implies]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[Implies]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}]}], ")"}]}], ")"}]}], ")"}], "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[Implies]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[Implies]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[Implies]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    "\[Implies]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], ")"}]}], ")"}], "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[Implies]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], ")"}], "\[Implies]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[Implies]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}], 
+                    ")"}]}]}], 11, SpanMaxSize -> 0, StripOnInput -> False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"ITE\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["a", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], ")"}],
+                     "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], ")"}]}], ")"}]}]}], ")"}], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["a", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["b", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["c", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["e", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["f", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], ")"}]}], ")"}]}], ")"}]}], ")"}], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["c", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["e", Italic, 14, StripOnInput -> False], 
+                    "\[And]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    StyleBox["f", Italic, 14, StripOnInput -> False], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["f", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}], ")"}]}], ")"}], "\[Or]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"\[Not]", 
+                    StyleBox["e", Italic, 14, StripOnInput -> False]}], 
+                    "\[And]", 
+                    StyleBox["d", Italic, 14, StripOnInput -> False]}], 
+                    ")"}]}], ")"}]}], ")"}]}], ")"}]}], ")"}], "\[Or]", 
+                    RowBox[{"\[Not]", 
+                    StyleBox["b", Italic, 14, StripOnInput -> False]}]}], 
+                    ")"}]}]}], ")"}]}], 11, SpanMaxSize -> 0, StripOnInput -> 
+                  False]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+               AutoDelete -> False, 
+               GridBoxBackground -> {"Columns" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,formuladata"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Text notation", "input" -> 
+         "OtherForms__Text notation"}, {}]}], 
+     XMLElement["infos", {"count" -> "1"}, {
+       XMLElement[
+       "info", {
+        "text" -> 
+         "p implies q represents the logical implication \
+p\[DoubleRightArrow]q"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/language/ref/Implies.html", 
+           "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/Implies.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             FormBox[
+              TemplateBox[{
+                RowBox[{"p", "\[Implies]", "q"}], "\" \"", 
+                "\"represents the logical implication\"", "\" \"", 
+                RowBox[{"p", "\[DoubleRightArrow]", "q"}]}, "RowDefault"], 
+              TraditionalForm]], "Output", {
+            Background -> None, 
+             GraphicsBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+               DefaultAxesStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+               DefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+             Graphics3DBoxOptions -> {
+              DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+            NumberPoint -> ".", 
+            AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+            RenderingOptions -> {
+             "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}]}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Logic circuit", "scanner" -> "Boolean", "id" -> 
+     "LogicCircuit", "position" -> "400", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            GraphicsBox[{{{
+                
+                LineBox[{{0.8401332538345524, 4.344673184758461}, {
+                 0.8732366919028302, 4.344673184758461}}], 
+                
+                LineBox[{{0.8401332538345524, 4.444673184758461}, {
+                 0.8732366919028302, 4.444673184758461}}], 
+                
+                CircleBox[{0.7710237797880436, 4.394673184758461}, {
+                 0.10366421106976322`, 0.3}, 
+                 NCache[{2 Pi - ArcSin[
+                    Rational[1, 3]], 2 Pi + ArcSin[
+                    Rational[1, 3]]}, {5.943348397725464, 
+                  6.623022216633708}]], 
+                
+                CircleBox[{0.8636400121177839, 4.612631184758461}, {
+                 0.1099891101344997, 
+                 0.31830400000000003`}, {-1.52424, -0.7542}], 
+                
+                CircleBox[{0.8636304750103654, 4.176673184758461}, {
+                 0.1099891101344997, 0.31830400000000003`}, {0.75426, 
+                 1.52424}], 
+                
+                LineBox[{{0.9437974649043156, 4.394673184758461}, {
+                 0.97835220192757, 4.394673184758461}}]}, {
+                
+                LineBox[{{0.5370523445408651, 8.28472500557639}, {
+                 0.5716070815641195, 8.28472500557639}, {0.5716070815641195, 
+                 8.234725005576392}, {0.606161818587374, 8.234725005576392}}], 
+                
+                LineBox[{{0.5370523445408651, 8.384725005576392}, {
+                 0.5716070815641195, 8.384725005576392}, {0.5716070815641195, 
+                 8.434725005576391}, {0.606161818587374, 8.434725005576391}}], 
+                
+                CircleBox[{0.606161818587374, 8.334725005576392}, {
+                 0.03455473702325441, 0.1}, 
+                 
+                 NCache[{Rational[3, 2] Pi, Rational[5, 2] Pi}, {
+                  4.71238898038469, 7.853981633974483}]], 
+                
+                LineBox[{{0.5716070815641195, 8.28472500557639}, {
+                 0.5716070815641195, 8.384725005576392}}], 
+                
+                LineBox[{{0.6407165556106283, 8.334725005576392}, {
+                 0.6752712926338827, 8.334725005576392}}]}, {
+                
+                LineBox[{{0.358368488530894, 9.092427278810609}, {
+                 0.3721903833401957, 9.092427278810609}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["a", HoldForm], TraditionalForm], {
+                 0.3030809092936869, 9.092427278810609}]}, {
+                
+                LineBox[{{0.23397143524717812`, 8.789346369516922}, {
+                 0.2556718100977819, 8.789346369516922}}], 
+                
+                LineBox[{{0.33072469891229045`, 8.789346369516922}, {
+                 0.2556718100977819, 8.689346369516922}, {0.2556718100977819, 
+                 8.889346369516922}, {0.33072469891229045`, 
+                 8.789346369516922}}], 
+                CircleBox[{0.3445465937215922, 8.789346369516922}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.358368488530894, 8.789346369516922}, {
+                 0.3721903833401957, 8.789346369516922}}]}, {
+                
+                LineBox[{{0.05528757923720705, 8.789346369516922}, {
+                 0.06910947404650881, 8.789346369516922}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["b", HoldForm], TraditionalForm], {0., 
+                 8.789346369516922}]}, {
+                
+                LineBox[{{0.3583684885308941, 8.486265460223235}, {
+                 0.37219038334019583`, 8.486265460223235}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["c", HoldForm], TraditionalForm], {
+                 0.30308090929368703`, 8.486265460223235}]}, {
+                
+                LineBox[{{0.3583684885308941, 8.183184550929548}, {
+                 0.37219038334019583`, 8.183184550929548}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["d", HoldForm], TraditionalForm], {
+                 0.30308090929368703`, 8.183184550929548}]}, {
+                
+                LineBox[{{0.3583684885308941, 7.880103641635861}, {
+                 0.37219038334019583`, 7.880103641635861}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["e", HoldForm], TraditionalForm], {
+                 0.30308090929368703`, 7.880103641635861}]}, {
+                
+                LineBox[{{0.23397143524717823`, 7.577022732342174}, {
+                 0.255671810097782, 7.577022732342174}}], 
+                
+                LineBox[{{0.33072469891229056`, 7.577022732342174}, {
+                 0.255671810097782, 7.477022732342174}, {0.255671810097782, 
+                 7.677022732342174}, {0.33072469891229056`, 
+                 7.577022732342174}}], 
+                
+                CircleBox[{0.3445465937215923, 7.577022732342174}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308941, 7.577022732342174}, {
+                 0.37219038334019583`, 7.577022732342174}}]}, {
+                
+                LineBox[{{0.05528757923720716, 7.577022732342174}, {
+                 0.06910947404650893, 7.577022732342174}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["f", HoldForm], TraditionalForm], {
+                 1.1102230246251565`*^-16, 7.577022732342174}]}, {
+                
+                LineBox[{{0.5370523445408653, 6.46623954981427}, {
+                 0.5716070815641197, 6.46623954981427}, {0.5716070815641197, 
+                 6.416239549814271}, {0.6061618185873741, 
+                 6.416239549814271}}], 
+                
+                LineBox[{{0.5370523445408653, 6.56623954981427}, {
+                 0.5716070815641197, 6.56623954981427}, {0.5716070815641197, 
+                 6.61623954981427}, {0.6061618185873741, 6.61623954981427}}], 
+                
+                CircleBox[{0.6061618185873741, 6.51623954981427}, {
+                 0.03455473702325441, 0.1}, 
+                 
+                 NCache[{Rational[3, 2] Pi, Rational[5, 2] Pi}, {
+                  4.71238898038469, 7.853981633974483}]], 
+                
+                LineBox[{{0.5716070815641197, 6.46623954981427}, {
+                 0.5716070815641197, 6.56623954981427}}], 
+                
+                LineBox[{{0.6407165556106285, 6.51623954981427}, {
+                 0.6752712926338829, 6.51623954981427}}]}, {
+                
+                LineBox[{{0.23397143524717834`, 7.273941823048487}, {
+                 0.2556718100977821, 7.273941823048487}}], 
+                
+                LineBox[{{0.33072469891229067`, 7.273941823048487}, {
+                 0.2556718100977821, 7.173941823048487}, {0.2556718100977821, 
+                 7.3739418230484866`}, {0.33072469891229067`, 
+                 7.273941823048487}}], 
+                
+                CircleBox[{0.3445465937215924, 7.273941823048487}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308942, 7.273941823048487}, {
+                 0.37219038334019594`, 7.273941823048487}}]}, {
+                
+                LineBox[{{0.05528757923720716, 7.273941823048487}, {
+                 0.06910947404650893, 7.273941823048487}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["a", HoldForm], TraditionalForm], {
+                 1.1102230246251565`*^-16, 7.273941823048487}]}, {
+                
+                LineBox[{{0.3583684885308942, 6.9708609137548}, {
+                 0.37219038334019594`, 6.9708609137548}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["b", HoldForm], TraditionalForm], {
+                 0.30308090929368714`, 6.9708609137548}]}, {
+                
+                LineBox[{{0.23397143524717834`, 6.667780004461113}, {
+                 0.2556718100977821, 6.667780004461113}}], 
+                
+                LineBox[{{0.33072469891229067`, 6.667780004461113}, {
+                 0.2556718100977821, 6.567780004461113}, {0.2556718100977821, 
+                 6.7677800044611125`}, {0.33072469891229067`, 
+                 6.667780004461113}}], 
+                
+                CircleBox[{0.3445465937215924, 6.667780004461113}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308942, 6.667780004461113}, {
+                 0.37219038334019594`, 6.667780004461113}}]}, {
+                
+                LineBox[{{0.05528757923720716, 6.667780004461113}, {
+                 0.06910947404650893, 6.667780004461113}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["c", HoldForm], TraditionalForm], {
+                 1.1102230246251565`*^-16, 6.667780004461113}]}, {
+                
+                LineBox[{{0.3583684885308942, 6.364699095167427}, {
+                 0.37219038334019594`, 6.364699095167427}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["d", HoldForm], TraditionalForm], {
+                 0.30308090929368714`, 6.364699095167427}]}, {
+                
+                LineBox[{{0.3583684885308942, 6.06161818587374}, {
+                 0.37219038334019594`, 6.06161818587374}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["e", HoldForm], TraditionalForm], {
+                 0.30308090929368714`, 6.06161818587374}]}, {
+                
+                LineBox[{{0.23397143524717834`, 5.758537276580053}, {
+                 0.2556718100977821, 5.758537276580053}}], 
+                
+                LineBox[{{0.33072469891229067`, 5.758537276580053}, {
+                 0.2556718100977821, 5.658537276580053}, {0.2556718100977821, 
+                 5.858537276580052}, {0.33072469891229067`, 
+                 5.758537276580053}}], 
+                CircleBox[{0.3445465937215924, 5.758537276580053}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308942, 5.758537276580053}, {
+                 0.37219038334019594`, 5.758537276580053}}]}, {
+                
+                LineBox[{{0.05528757923720738, 5.758537276580053}, {
+                 0.06910947404650915, 5.758537276580053}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["f", HoldForm], TraditionalForm], {
+                 3.3306690738754696`*^-16, 5.758537276580053}]}, {
+                
+                LineBox[{{0.5370523445408654, 4.799294548698992}, {
+                 0.5716070815641198, 4.799294548698992}, {0.5716070815641198, 
+                 4.749294548698992}, {0.6061618185873742, 
+                 4.749294548698992}}], 
+                
+                LineBox[{{0.5370523445408654, 4.899294548698991}, {
+                 0.5716070815641198, 4.899294548698991}, {0.5716070815641198, 
+                 4.949294548698991}, {0.6061618185873742, 
+                 4.949294548698991}}], 
+                
+                CircleBox[{0.6061618185873742, 4.849294548698992}, {
+                 0.03455473702325441, 0.1}, 
+                 
+                 NCache[{Rational[3, 2] Pi, Rational[5, 2] Pi}, {
+                  4.71238898038469, 7.853981633974483}]], 
+                
+                LineBox[{{0.5716070815641198, 4.799294548698992}, {
+                 0.5716070815641198, 4.899294548698991}}], 
+                
+                LineBox[{{0.6407165556106286, 4.849294548698992}, {
+                 0.675271292633883, 4.849294548698992}}]}, {
+                
+                LineBox[{{0.23397143524717834`, 5.455456367286366}, {
+                 0.2556718100977821, 5.455456367286366}}], 
+                
+                LineBox[{{0.33072469891229067`, 5.455456367286366}, {
+                 0.2556718100977821, 5.355456367286366}, {0.2556718100977821, 
+                 5.555456367286365}, {0.33072469891229067`, 
+                 5.455456367286366}}], 
+                
+                CircleBox[{0.3445465937215924, 5.455456367286366}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308942, 5.455456367286366}, {
+                 0.37219038334019594`, 5.455456367286366}}]}, {
+                
+                LineBox[{{0.05528757923720738, 5.455456367286366}, {
+                 0.06910947404650915, 5.455456367286366}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["a", HoldForm], TraditionalForm], {
+                 3.3306690738754696`*^-16, 5.455456367286366}]}, {
+                
+                LineBox[{{0.3583684885308943, 5.152375457992679}, {
+                 0.37219038334019605`, 5.152375457992679}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["b", HoldForm], TraditionalForm], {
+                 0.30308090929368725`, 5.152375457992679}]}, {
+                
+                LineBox[{{0.23397143524717845`, 4.849294548698992}, {
+                 0.2556718100977822, 4.849294548698992}}], 
+                
+                LineBox[{{0.3307246989122908, 4.849294548698992}, {
+                 0.2556718100977822, 4.749294548698992}, {0.2556718100977822, 
+                 4.949294548698991}, {0.3307246989122908, 
+                 4.849294548698992}}], 
+                
+                CircleBox[{0.3445465937215925, 4.849294548698992}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308943, 4.849294548698992}, {
+                 0.37219038334019605`, 4.849294548698992}}]}, {
+                
+                LineBox[{{0.05528757923720738, 4.849294548698992}, {
+                 0.06910947404650915, 4.849294548698992}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["c", HoldForm], TraditionalForm], {
+                 3.3306690738754696`*^-16, 4.849294548698992}]}, {
+                
+                LineBox[{{0.23397143524717845`, 4.5462136394053045`}, {
+                 0.2556718100977822, 4.5462136394053045`}}], 
+                
+                LineBox[{{0.3307246989122908, 4.5462136394053045`}, {
+                 0.2556718100977822, 4.446213639405305}, {0.2556718100977822, 
+                 4.646213639405304}, {0.3307246989122908, 
+                 4.5462136394053045`}}], 
+                
+                CircleBox[{0.3445465937215925, 4.5462136394053045`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308943, 4.5462136394053045`}, {
+                 0.37219038334019605`, 4.5462136394053045`}}]}, {
+                
+                LineBox[{{0.05528757923720738, 4.5462136394053045`}, {
+                 0.06910947404650915, 4.5462136394053045`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["d", HoldForm], TraditionalForm], {
+                 3.3306690738754696`*^-16, 4.5462136394053045`}]}, {
+                
+                LineBox[{{0.23397143524717845`, 4.2431327301116175`}, {
+                 0.2556718100977822, 4.2431327301116175`}}], 
+                
+                LineBox[{{0.3307246989122908, 4.2431327301116175`}, {
+                 0.2556718100977822, 4.143132730111618}, {0.2556718100977822, 
+                 4.343132730111617}, {0.3307246989122908, 
+                 4.2431327301116175`}}], 
+                
+                CircleBox[{0.3445465937215925, 4.2431327301116175`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308943, 4.2431327301116175`}, {
+                 0.37219038334019605`, 4.2431327301116175`}}]}, {
+                
+                LineBox[{{0.05528757923720738, 4.2431327301116175`}, {
+                 0.06910947404650915, 4.2431327301116175`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["e", HoldForm], TraditionalForm], {
+                 3.3306690738754696`*^-16, 4.2431327301116175`}]}, {
+                
+                LineBox[{{0.5370523445408655, 3.2838900022305575`}, {
+                 0.5716070815641199, 3.2838900022305575`}, {
+                 0.5716070815641199, 3.2338900022305572`}, {
+                 0.6061618185873743, 3.2338900022305572`}}], 
+                
+                LineBox[{{0.5370523445408655, 3.383890002230557}, {
+                 0.5716070815641199, 3.383890002230557}, {0.5716070815641199, 
+                 3.4338900022305574`}, {0.6061618185873743, 
+                 3.4338900022305574`}}], 
+                
+                CircleBox[{0.6061618185873743, 3.3338900022305573`}, {
+                 0.03455473702325441, 0.1}, 
+                 
+                 NCache[{Rational[3, 2] Pi, Rational[5, 2] Pi}, {
+                  4.71238898038469, 7.853981633974483}]], 
+                
+                LineBox[{{0.5716070815641199, 3.2838900022305575`}, {
+                 0.5716070815641199, 3.383890002230557}}], 
+                
+                LineBox[{{0.6407165556106287, 3.3338900022305573`}, {
+                 0.6752712926338831, 3.3338900022305573`}}]}, {
+                LineBox[{{0.23397143524717856`, 3.9400518208179314`}, {
+                 0.25567181009778234`, 3.9400518208179314`}}], 
+                
+                LineBox[{{0.3307246989122909, 3.9400518208179314`}, {
+                 0.25567181009778234`, 3.8400518208179313`}, {
+                 0.25567181009778234`, 4.040051820817931}, {
+                 0.3307246989122909, 3.9400518208179314`}}], 
+                
+                CircleBox[{0.34454659372159263`, 3.9400518208179314`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308944, 3.9400518208179314`}, {
+                 0.37219038334019616`, 3.9400518208179314`}}]}, {
+                
+                LineBox[{{0.05528757923720738, 3.9400518208179314`}, {
+                 0.06910947404650915, 3.9400518208179314`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["a", HoldForm], TraditionalForm], {
+                 3.3306690738754696`*^-16, 3.9400518208179314`}]}, {
+                
+                LineBox[{{0.3583684885308944, 3.6369709115242443`}, {
+                 0.37219038334019616`, 3.6369709115242443`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["b", HoldForm], TraditionalForm], {
+                 0.30308090929368736`, 3.6369709115242443`}]}, {
+                
+                LineBox[{{0.23397143524717856`, 3.3338900022305573`}, {
+                 0.25567181009778234`, 3.3338900022305573`}}], 
+                
+                LineBox[{{0.3307246989122909, 3.3338900022305573`}, {
+                 0.25567181009778234`, 3.2338900022305572`}, {
+                 0.25567181009778234`, 3.4338900022305574`}, {
+                 0.3307246989122909, 3.3338900022305573`}}], 
+                
+                CircleBox[{0.34454659372159263`, 3.3338900022305573`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308944, 3.3338900022305573`}, {
+                 0.37219038334019616`, 3.3338900022305573`}}]}, {
+                
+                LineBox[{{0.05528757923720749, 3.3338900022305573`}, {
+                 0.06910947404650926, 3.3338900022305573`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["d", HoldForm], TraditionalForm], {
+                 4.440892098500626*^-16, 3.3338900022305573`}]}, {
+                
+                LineBox[{{0.23397143524717856`, 3.0308090929368703`}, {
+                 0.25567181009778234`, 3.0308090929368703`}}], 
+                
+                LineBox[{{0.3307246989122909, 3.0308090929368703`}, {
+                 0.25567181009778234`, 2.93080909293687}, {
+                 0.25567181009778234`, 3.1308090929368704`}, {
+                 0.3307246989122909, 3.0308090929368703`}}], 
+                
+                CircleBox[{0.34454659372159263`, 3.0308090929368703`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308944, 3.0308090929368703`}, {
+                 0.37219038334019616`, 3.0308090929368703`}}]}, {
+                
+                LineBox[{{0.05528757923720749, 3.0308090929368703`}, {
+                 0.06910947404650926, 3.0308090929368703`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["e", HoldForm], TraditionalForm], {
+                 4.440892098500626*^-16, 3.0308090929368703`}]}, {
+                
+                LineBox[{{0.23397143524717856`, 2.7277281836431833`}, {
+                 0.25567181009778234`, 2.7277281836431833`}}], 
+                
+                LineBox[{{0.3307246989122909, 2.7277281836431833`}, {
+                 0.25567181009778234`, 2.627728183643183}, {
+                 0.25567181009778234`, 2.8277281836431833`}, {
+                 0.3307246989122909, 2.7277281836431833`}}], 
+                
+                CircleBox[{0.34454659372159263`, 2.7277281836431833`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308944, 2.7277281836431833`}, {
+                 0.37219038334019616`, 2.7277281836431833`}}]}, {
+                
+                LineBox[{{0.05528757923720749, 2.7277281836431833`}, {
+                 0.06910947404650926, 2.7277281836431833`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["f", HoldForm], TraditionalForm], {
+                 4.440892098500626*^-16, 2.7277281836431833`}]}, {
+                
+                LineBox[{{0.5370523445408655, 1.7684854557621221`}, {
+                 0.5716070815641199, 1.7684854557621221`}, {
+                 0.5716070815641199, 1.718485455762122}, {0.6061618185873743, 
+                 1.718485455762122}}], 
+                
+                LineBox[{{0.5370523445408655, 1.8684854557621222`}, {
+                 0.5716070815641199, 1.8684854557621222`}, {
+                 0.5716070815641199, 1.9184854557621223`}, {
+                 0.6061618185873743, 1.9184854557621223`}}], 
+                
+                CircleBox[{0.6061618185873743, 1.8184854557621222`}, {
+                 0.03455473702325441, 0.1}, 
+                 
+                 NCache[{Rational[3, 2] Pi, Rational[5, 2] Pi}, {
+                  4.71238898038469, 7.853981633974483}]], 
+                
+                LineBox[{{0.5716070815641199, 1.7684854557621221`}, {
+                 0.5716070815641199, 1.8684854557621222`}}], 
+                
+                LineBox[{{0.6407165556106287, 1.8184854557621222`}, {
+                 0.6752712926338831, 1.8184854557621222`}}]}, {
+                
+                LineBox[{{0.3583684885308944, 2.4246472743494962`}, {
+                 0.37219038334019616`, 2.4246472743494962`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["a", HoldForm], TraditionalForm], {
+                 0.30308090929368736`, 2.4246472743494962`}]}, {
+                
+                LineBox[{{0.23397143524717856`, 2.121566365055809}, {
+                 0.25567181009778234`, 2.121566365055809}}], 
+                
+                LineBox[{{0.3307246989122909, 2.121566365055809}, {
+                 0.25567181009778234`, 2.021566365055809}, {
+                 0.25567181009778234`, 2.2215663650558093`}, {
+                 0.3307246989122909, 2.121566365055809}}], 
+                
+                CircleBox[{0.34454659372159263`, 2.121566365055809}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.3583684885308944, 2.121566365055809}, {
+                 0.37219038334019616`, 2.121566365055809}}]}, {
+                
+                LineBox[{{0.05528757923720749, 2.121566365055809}, {
+                 0.06910947404650926, 2.121566365055809}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["b", HoldForm], TraditionalForm], {
+                 4.440892098500626*^-16, 2.121566365055809}]}, {
+                
+                LineBox[{{0.35836848853089454`, 1.8184854557621222`}, {
+                 0.3721903833401963, 1.8184854557621222`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["c", HoldForm], TraditionalForm], {
+                 0.3030809092936875, 1.8184854557621222`}]}, {
+                
+                LineBox[{{0.23397143524717867`, 1.5154045464684351`}, {
+                 0.25567181009778245`, 1.5154045464684351`}}], 
+                
+                LineBox[{{0.330724698912291, 1.5154045464684351`}, {
+                 0.25567181009778245`, 1.415404546468435}, {
+                 0.25567181009778245`, 1.6154045464684352`}, {
+                 0.330724698912291, 1.5154045464684351`}}], 
+                
+                CircleBox[{0.34454659372159274`, 1.5154045464684351`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.35836848853089454`, 1.5154045464684351`}, {
+                 0.3721903833401963, 1.5154045464684351`}}]}, {
+                
+                LineBox[{{0.05528757923720749, 1.5154045464684351`}, {
+                 0.06910947404650926, 1.5154045464684351`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["d", HoldForm], TraditionalForm], {
+                 4.440892098500626*^-16, 1.5154045464684351`}]}, {
+                
+                LineBox[{{0.23397143524717867`, 1.2123236371747481`}, {
+                 0.25567181009778245`, 1.2123236371747481`}}], 
+                
+                LineBox[{{0.330724698912291, 1.2123236371747481`}, {
+                 0.25567181009778245`, 1.112323637174748}, {
+                 0.25567181009778245`, 1.3123236371747482`}, {
+                 0.330724698912291, 1.2123236371747481`}}], 
+                
+                CircleBox[{0.34454659372159274`, 1.2123236371747481`}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.35836848853089454`, 1.2123236371747481`}, {
+                 0.3721903833401963, 1.2123236371747481`}}]}, {
+                
+                LineBox[{{0.055287579237207604`, 1.2123236371747481`}, {
+                 0.06910947404650937, 1.2123236371747481`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["f", HoldForm], TraditionalForm], {
+                 5.551115123125783*^-16, 1.2123236371747481`}]}, {
+                
+                LineBox[{{0.5370523445408657, 0.40462136394053055`}, {
+                 0.5716070815641201, 0.40462136394053055`}, {
+                 0.5716070815641201, 0.35462136394053057`}, {
+                 0.6061618185873745, 0.35462136394053057`}}], 
+                
+                LineBox[{{0.5370523445408657, 0.5046213639405306}, {
+                 0.5716070815641201, 0.5046213639405306}, {0.5716070815641201,
+                  0.5546213639405305}, {0.6061618185873745, 
+                 0.5546213639405305}}], 
+                
+                CircleBox[{0.6061618185873745, 0.45462136394053054`}, {
+                 0.03455473702325441, 0.1}, 
+                 
+                 NCache[{Rational[3, 2] Pi, Rational[5, 2] Pi}, {
+                  4.71238898038469, 7.853981633974483}]], 
+                
+                LineBox[{{0.5716070815641201, 0.40462136394053055`}, {
+                 0.5716070815641201, 0.5046213639405306}}], 
+                
+                LineBox[{{0.6407165556106289, 0.45462136394053054`}, {
+                 0.6752712926338833, 0.45462136394053054`}}]}, {
+                
+                LineBox[{{0.35836848853089454`, 0.9092427278810611}, {
+                 0.3721903833401963, 0.9092427278810611}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["a", HoldForm], TraditionalForm], {
+                 0.3030809092936875, 0.9092427278810611}]}, {
+                
+                LineBox[{{0.23397143524717867`, 0.6061618185873741}, {
+                 0.25567181009778245`, 0.6061618185873741}}], 
+                
+                LineBox[{{0.330724698912291, 0.6061618185873741}, {
+                 0.25567181009778245`, 0.5061618185873741}, {
+                 0.25567181009778245`, 0.706161818587374}, {0.330724698912291,
+                  0.6061618185873741}}], 
+                
+                CircleBox[{0.34454659372159274`, 0.6061618185873741}, {
+                 0.013821894809301762`, 0.04}], 
+                
+                LineBox[{{0.35836848853089454`, 0.6061618185873741}, {
+                 0.3721903833401963, 0.6061618185873741}}]}, {
+                
+                LineBox[{{0.055287579237207604`, 0.6061618185873741}, {
+                 0.06910947404650937, 0.6061618185873741}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["b", HoldForm], TraditionalForm], {
+                 5.551115123125783*^-16, 0.6061618185873741}]}, {
+                LineBox[{{0.35836848853089454`, 0.30308090929368703`}, {
+                 0.3721903833401963, 0.30308090929368703`}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["c", HoldForm], TraditionalForm], {
+                 0.3030809092936875, 0.30308090929368703`}]}, {
+                
+                LineBox[{{0.23397143524717867`, 0.}, {0.25567181009778245`, 
+                 0.}}], 
+                
+                LineBox[{{0.330724698912291, 0.}, {
+                 0.25567181009778245`, -0.1}, {0.25567181009778245`, 0.1}, {
+                 0.330724698912291, 0.}}], 
+                
+                CircleBox[{0.34454659372159274`, 0.}, {0.013821894809301762`, 
+                 0.04}], 
+                
+                LineBox[{{0.35836848853089454`, 0.}, {0.3721903833401963, 
+                 0.}}]}, {
+                
+                LineBox[{{0.055287579237207604`, 0.}, {0.06910947404650937, 
+                 0.}}], 
+                InsetBox[
+                 FormBox[
+                  TagBox["e", HoldForm], TraditionalForm], {
+                 5.551115123125783*^-16, 0.}]}}, {
+               
+               LineBox[{{{0.8401332538345524, 4.344673184758461}, {
+                0.6752712926338833, 0.45462136394053054`}}, {{
+                0.8401332538345524, 4.364673184758461}, {0.6752712926338831, 
+                1.8184854557621222`}}, {{0.8401332538345524, 
+                4.384673184758461}, {0.6752712926338831, 
+                3.3338900022305573`}}, {{0.8401332538345524, 
+                4.404673184758461}, {0.675271292633883, 
+                4.849294548698992}}, {{0.8401332538345524, 
+                4.424673184758461}, {0.6752712926338829, 
+                6.51623954981427}}, {{0.8401332538345524, 
+                4.444673184758461}, {0.6752712926338827, 
+                8.334725005576392}}}], 
+               
+               LineBox[{{{0.5370523445408651, 8.28472500557639}, {
+                0.37219038334019583`, 7.577022732342174}}, {{
+                0.5370523445408651, 8.304725005576392}, {0.37219038334019583`,
+                 7.880103641635861}}, {{0.5370523445408651, 
+                8.324725005576392}, {0.37219038334019583`, 
+                8.183184550929548}}, {{0.5370523445408651, 
+                8.344725005576391}, {0.37219038334019583`, 
+                8.486265460223235}}, {{0.5370523445408651, 
+                8.36472500557639}, {0.3721903833401957, 
+                8.789346369516922}}, {{0.5370523445408651, 
+                8.384725005576392}, {0.3721903833401957, 
+                9.092427278810609}}}], {}, 
+               
+               LineBox[{{0.23397143524717812`, 8.789346369516922}, {
+                0.06910947404650881, 8.789346369516922}}], {}, {}, {}, {}, 
+               
+               LineBox[{{0.23397143524717823`, 7.577022732342174}, {
+                0.06910947404650893, 7.577022732342174}}], {}, 
+               
+               LineBox[{{{0.5370523445408653, 6.46623954981427}, {
+                0.37219038334019594`, 5.758537276580053}}, {{
+                0.5370523445408653, 6.48623954981427}, {0.37219038334019594`, 
+                6.06161818587374}}, {{0.5370523445408653, 6.50623954981427}, {
+                0.37219038334019594`, 6.364699095167427}}, {{
+                0.5370523445408653, 6.52623954981427}, {0.37219038334019594`, 
+                6.667780004461113}}, {{0.5370523445408653, 
+                6.5462395498142705`}, {0.37219038334019594`, 
+                6.9708609137548}}, {{0.5370523445408653, 6.56623954981427}, {
+                0.37219038334019594`, 7.273941823048487}}}], 
+               
+               LineBox[{{0.23397143524717834`, 7.273941823048487}, {
+                0.06910947404650893, 7.273941823048487}}], {}, {}, 
+               
+               LineBox[{{0.23397143524717834`, 6.667780004461113}, {
+                0.06910947404650893, 6.667780004461113}}], {}, {}, {}, 
+               
+               LineBox[{{0.23397143524717834`, 5.758537276580053}, {
+                0.06910947404650915, 5.758537276580053}}], {}, 
+               
+               LineBox[{{{0.5370523445408654, 4.799294548698992}, {
+                0.37219038334019605`, 4.2431327301116175`}}, {{
+                0.5370523445408654, 4.824294548698991}, {0.37219038334019605`,
+                 4.5462136394053045`}}, {{0.5370523445408654, 
+                4.849294548698992}, {0.37219038334019605`, 
+                4.849294548698992}}, {{0.5370523445408654, 
+                4.874294548698992}, {0.37219038334019605`, 
+                5.152375457992679}}, {{0.5370523445408654, 
+                4.899294548698991}, {0.37219038334019594`, 
+                5.455456367286366}}}], 
+               
+               LineBox[{{0.23397143524717834`, 5.455456367286366}, {
+                0.06910947404650915, 5.455456367286366}}], {}, {}, 
+               LineBox[{{0.23397143524717845`, 4.849294548698992}, {
+                0.06910947404650915, 4.849294548698992}}], {}, 
+               
+               LineBox[{{0.23397143524717845`, 4.5462136394053045`}, {
+                0.06910947404650915, 4.5462136394053045`}}], {}, 
+               
+               LineBox[{{0.23397143524717845`, 4.2431327301116175`}, {
+                0.06910947404650915, 4.2431327301116175`}}], {}, 
+               
+               LineBox[{{{0.5370523445408655, 3.2838900022305575`}, {
+                0.37219038334019616`, 2.7277281836431833`}}, {{
+                0.5370523445408655, 3.3088900022305574`}, {
+                0.37219038334019616`, 3.0308090929368703`}}, {{
+                0.5370523445408655, 3.3338900022305573`}, {
+                0.37219038334019616`, 3.3338900022305573`}}, {{
+                0.5370523445408655, 3.3588900022305572`}, {
+                0.37219038334019616`, 3.6369709115242443`}}, {{
+                0.5370523445408655, 3.383890002230557}, {0.37219038334019616`,
+                 3.9400518208179314`}}}], 
+               
+               LineBox[{{0.23397143524717856`, 3.9400518208179314`}, {
+                0.06910947404650915, 3.9400518208179314`}}], {}, {}, 
+               
+               LineBox[{{0.23397143524717856`, 3.3338900022305573`}, {
+                0.06910947404650926, 3.3338900022305573`}}], {}, 
+               
+               LineBox[{{0.23397143524717856`, 3.0308090929368703`}, {
+                0.06910947404650926, 3.0308090929368703`}}], {}, 
+               
+               LineBox[{{0.23397143524717856`, 2.7277281836431833`}, {
+                0.06910947404650926, 2.7277281836431833`}}], {}, 
+               
+               LineBox[{{{0.5370523445408655, 1.7684854557621221`}, {
+                0.3721903833401963, 1.2123236371747481`}}, {{
+                0.5370523445408655, 1.7934854557621223`}, {0.3721903833401963,
+                 1.5154045464684351`}}, {{0.5370523445408655, 
+                1.8184854557621222`}, {0.3721903833401963, 
+                1.8184854557621222`}}, {{0.5370523445408655, 
+                1.843485455762122}, {0.37219038334019616`, 
+                2.121566365055809}}, {{0.5370523445408655, 
+                1.8684854557621222`}, {0.37219038334019616`, 
+                2.4246472743494962`}}}], {}, 
+               
+               LineBox[{{0.23397143524717856`, 2.121566365055809}, {
+                0.06910947404650926, 2.121566365055809}}], {}, {}, 
+               LineBox[{{0.23397143524717867`, 1.5154045464684351`}, {
+                0.06910947404650926, 1.5154045464684351`}}], {}, 
+               
+               LineBox[{{0.23397143524717867`, 1.2123236371747481`}, {
+                0.06910947404650937, 1.2123236371747481`}}], {}, 
+               
+               LineBox[{{{0.5370523445408657, 0.40462136394053055`}, {
+                0.3721903833401963, 0.}}, {{0.5370523445408657, 
+                0.4379546972738639}, {0.3721903833401963, 
+                0.30308090929368703`}}, {{0.5370523445408657, 
+                0.4712880306071972}, {0.3721903833401963, 
+                0.6061618185873741}}, {{0.5370523445408657, 
+                0.5046213639405306}, {0.3721903833401963, 
+                0.9092427278810611}}}], {}, 
+               
+               LineBox[{{0.23397143524717867`, 0.6061618185873741}, {
+                0.06910947404650937, 0.6061618185873741}}], {}, {}, 
+               
+               LineBox[{{0.23397143524717867`, 0.}, {0.06910947404650937, 
+                0.}}], {}}}, AspectRatio -> 0.34554737023254406`, ImageSize -> 
+             NCache[
+               Rational[550, 3], 183.33333333333334`]], TraditionalForm]], 
+          "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"computabledata,formatteddata"}]}]}], 
+   Typeset`pod5$$ = XMLElement[
+   "pod", {"title" -> "Truth density", "scanner" -> "Boolean", "id" -> 
+     "TruthDensity", "position" -> "500", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             RowBox[{
+               FractionBox["5", "32"], "=", 
+               TemplateBox[{"15.625`", "\"%\""}, "RowDefault"]}], HoldForm], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,formuladata"}]}]}], 
+   Typeset`pod6$$ = XMLElement[
+   "pod", {"title" -> "Boolean operator number", "scanner" -> "Boolean", "id" -> 
+     "BooleanOperatorNumber", "position" -> "600", "error" -> "false", 
+     "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "FromDigits[Boole[BooleanTable[(a &&  !b && c && d && e &&  !f) || ( \
+!a && b &&  !c && d && e &&  !f) || ( !a && b &&  !c &&  !d &&  !e) || ( !a \
+&& b &&  !d &&  !e &&  !f) || (a &&  !b && c &&  !d &&  !f) || (a &&  !b && c \
+&&  !e), {a, b, c, d, e, f}]], 2]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{"130841904873472", 
+              StyleBox["\" with variable ordering \"", {
+                GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                LineIndent -> 0}, StripOnInput -> False], 
+              StyleBox[
+               RowBox[{"{", 
+                 
+                 RowBox[{
+                  "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f"}], 
+                 "}"}], 
+               GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,moutput,computabledata,formatteddata,numberdata"}]}]\
+}], Typeset`aux1$$ = {True, False, {False, False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`aux4$$ = {True, False, {False}, True}, Typeset`aux5$$ = {
+   True, False, {False}, True}, Typeset`aux6$$ = {True, False, {False}, True},
+    Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {}, Typeset`initdone$$ = 
+   True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "6", "datatypes" -> 
+    "Math", "timedout" -> "", "timedoutpods" -> "", "timing" -> "5.746", 
+    "parsetiming" -> "4.202", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa72371e754gbc4d922bdg00004dd57b748i15e3de", "host" -> 
+    "http://www4f.wolframalpha.com", "server" -> "9", "related" -> 
+    "http://www4f.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa72381e754gbc4d922bdg000042b4h7g4h27d023g8919104754136759211", "version" -> 
+    "2.6"}, Typeset`sessioninfo$$ = {
+   "TimeZone" -> 2., 
+    "Date" -> {2018, 12, 10, 23, 40, 18.711294`9.024678762712854}, "Line" -> 
+    1, "SessionID" -> 30047246724370110384}, Typeset`showpods$$ = {1, 2, 3, 4,
+    5, 6}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = 
+   False, Typeset`newq$$ = 
+   "(a&&~b&&c&&d&&e&&~f) || (~a&&b&&~c&&d&&e&&~f) || (~a&&b&&~c&&~d&&~e) || \
+(~a&&b&&~d&&~e&&~f) || (a&&~b&&c&&~d&&~f) || (a&&~b&&c&&~e)"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
+         Typeset`aux5$$, Typeset`aux6$$}, Typeset`chosen$$, Typeset`open$$, 
+        Typeset`elements$$, Typeset`q$$, Typeset`opts$$, Typeset`nonpods$$, 
+        Typeset`queryinfo$$, Typeset`sessioninfo$$, Typeset`showpods$$, 
+        Typeset`failedpods$$, Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{1851., {491., 497.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{
+        Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$}], Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Print",
+ CellMargins->{{20, 10}, {Inherited, Inherited}},
+ CellChangeTimes->{3.75346681930169*^9}]
+}, Open  ]]
+},
+WindowSize->{1920, 1076},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (July 28, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 213, 4, 44, "WolframAlphaLong"],
+Cell[796, 28, 129159, 2631, 998, "Print"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
