@@ -1,7 +1,7 @@
 \documentclass[14pt,a4paper,report]{ncc}
 \usepackage[a4paper, mag=1000, left=2.5cm, right=1cm, top=2cm, bottom=2cm, headsep=0.7cm, footskip=1cm]{geometry}
 \usepackage[utf8]{inputenc}
-\usepackage[english,russian]{babel}
+\usepackage[english,ukrainian]{babel}
 \usepackage{indentfirst}
 \usepackage[dvipsnames]{xcolor}
 \usepackage[colorlinks]{hyperref}
@@ -9,6 +9,7 @@
 \usepackage{caption}
 \usepackage{enumitem}
 \usepackage{tabu}
+\usepackage{pdfpages}
 \usepackage{cmap}
 %page numbering
 \usepackage{scrpage2}
@@ -53,12 +54,14 @@ breaklines=true,            % автоматически переносить с
 breakatwhitespace=false,    % переносить строки только если есть пробел
 escapeinside={\%*}{*)}      % если нужно добавить комментарии в коде
 }
-
 \begin{document}
+\setcounter{table}{0}
 % Переоформление некоторых стандартных названий
 \def\contentsname{ЗМІСТ}
 \renewcommand{\chaptername}{Розділ}
 \renewcommand{\bibname}{Список джерел}
+\addto\captionsukrainian{\renewcommand{\tablename}{Табл.}}
+%\renewcommand{\tablename}{Табл.}
 % Оформление титульного листа
 \begin{titlepage}
 \begin{center}
@@ -99,6 +102,10 @@ escapeinside={\%*}{*)}      % если нужно добавить коммен�
 \input{short}
 \newpage
 \tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
 \newpage
 \input{thesis}
 \newpage
